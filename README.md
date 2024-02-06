@@ -4,10 +4,8 @@ Founded in 2018, Elist is a global e-commerce platform focusing on bringing the 
 The company has vast amounts of data on its sales, marketing efforts, operational effectiveness, product offerings, and loyalty program. This data, previously underutilised, is now being thoroughly analysed to uncover critical insights aimed at enhancing Elist's commercial performance. The project provides insights and recommendations on the following key areas:
 
 - **Sales Trends** - Focused on Revenue, Orders Placed, and Average Order Value (AOV).
-- **Product Performance** - An analysis of different product lines and their market impact.
-- **Loyalty Programme Performance** - Assessment of the loyalty programme's effectiveness and its future.
-- **Operational Effectiveness** - Evaluation of logistics and operational efficiency.
-- **Marketing Channel Effectiveness** - Analysis of various marketing channels and their return on investment.
+- **Growth rates** - An analysis of monthly and yearly growth rates.
+- **Loyalty Program Performance** - Assessment of the loyalty program's effectiveness and its future.
 
 ## Dataset Structure & Initial Checks
 
@@ -24,15 +22,10 @@ The database structure as seen below consists of four tables: orders, customers,
 
 
 
-**Loyalty Programme:**
+**Loyalty Program:**
 
 
 
-**Marketing Channel Performance**
-
-
-
-**Operational Effectiveness**
 
 
 ## Recommendations
