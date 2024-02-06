@@ -3,7 +3,7 @@ Founded in 2018, Elist is an e-commerce company that sells popular electronics p
 
 The company has a core dataset consisting of orders, order statuses, customers, products, and geographic information. Their data is quite messy (surprise!) and contains plenty of insights that have not yet been discovered by the company. You’re a data analyst who will be partnering with the head of operations, Angie, to deliver insights to teams across the company, including finance, sales, product, and marketing. Your focus is to help these stakeholders understand Elist’s performance so they can improve their day-to-day processes and help the company deliver top-notch products to customers around the world
 
-##Dataset Structure & Initial Checks
+## Dataset Structure & Initial Checks
 
 The database structure as seen below consists of four tables: orders, customers, geo_lookup, and order_status, with a total row count of 108,071 records.
 
