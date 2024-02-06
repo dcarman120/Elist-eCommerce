@@ -7,4 +7,4 @@ The company has a core dataset consisting of orders, order statuses, customers, 
 
 The database structure as seen below consists of four tables: orders, customers, geo_lookup, and order_status, with a total row count of 108,071 records.
 
-<kbd><img width="1200" alt="image" src="https://analyticsaccelerator.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F777816c0-d8ba-4b16-9a00-cff006894dff%2FBlank_diagram.png?table=block&id=affeecdd-d816-4466-96bb-55f6f619a5aa&spaceId=a815f446-4e36-444e-9ed8-c8863ee5b2f9&width=1440&userId=&cache=v2" height="370"></kbd>
+<kbd><img width="1200" alt="image" src="https://analyticsaccelerator.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F777816c0-d8ba-4b16-9a00-cff006894dff%2FBlank_diagram.png?table=block&id=affeecdd-d816-4466-96bb-55f6f619a5aa&spaceId=a815f446-4e36-444e-9ed8-c8863ee5b2f9&width=1440&userId=&cache=v2" height="570"></kbd>
