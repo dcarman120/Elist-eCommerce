@@ -10,16 +10,16 @@
   --SELECT * FROM region WHERE country = North America LIMIT 10 ORDER BY country name DESC
 
 
-  SELECT min(purchase_ts) AS earliest_purchase,
+SELECT min(purchase_ts) AS earliest_purchase,
     max(purchase_ts) AS latest_purchase
-  FROM core.orders
-  WHERE currency = 'AUD' AND usd_price > 50;
+FROM core.orders
+WHERE currency = 'AUD' AND usd_price > 50;
 
-  SELECT round(AVG(usd_price),2) AS avg_usd_order --round function, 2 stands for 2 decimal places
-  from core.orders
-  WHERE currency = 'USD'
-    AND EXTRACT(year from purchase_ts) = 2019;
-    --can also do 'AND purchase_ts >= '2019-01-01' AND purchase_ts <= '2019-12-31 11:59:59' 
+SELECT round(AVG(usd_price),2) AS avg_usd_order --round function, 2 stands for 2 decimal places
+from core.orders
+WHERE currency = 'USD'
+AND EXTRACT(year from purchase_ts) = 2019;
+--can also do 'AND purchase_ts >= '2019-01-01' AND purchase_ts <= '2019-12-31 11:59:59' 
 
 SELECT id as customer_id,
     loyalty_program as customer_loyalty_status,
